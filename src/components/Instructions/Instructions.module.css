@@ -1,0 +1,15 @@
+.instructionList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.instructionItem{
+    max-width: 60vw;
+    font-size: 24px;
+    word-wrap: break-word;
+    color: black;
+}

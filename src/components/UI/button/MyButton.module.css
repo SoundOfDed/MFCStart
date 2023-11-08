@@ -1,0 +1,41 @@
+.myBtn {
+    color: #fff;
+    background-color: #E94A38;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    min-width: 15vw;
+    height: 63px;
+    box-shadow: 1px 8px 5px -4px rgba(0, 0, 0, 0.31);
+    -webkit-box-shadow: 1px 8px 5px -4px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 1px 8px 5px -4px rgba(0, 0, 0, 0.31);
+    cursor: pointer;
+    transition: background-color 0.20s ease, border-color 0.20s ease, color 0.20s ease;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myBtn:hover{
+    color: #D5A168;
+    background-color: #fff;
+    border: 1px solid #E94A38;
+}
+
+.icon img{
+    pointer-events: none;
+    margin-right: 10px;
+    width: 33px;
+    height: 33px;
+}
+
+.icon svg{
+    pointer-events: none;
+    margin-right: 10px;
+    width: 33px;
+    height: 33px;
+}

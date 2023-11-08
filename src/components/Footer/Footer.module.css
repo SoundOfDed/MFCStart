@@ -1,0 +1,15 @@
+.footer{
+    background-color: #663A2A;
+}
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    font-size: 28px;
+    color: #fff;
+    margin: 20px;
+}
