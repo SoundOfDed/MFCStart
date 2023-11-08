@@ -157,12 +157,12 @@ M144.967422,203.166809
 z"/>
 							</svg>}>GLPI - ЗАЯВКИ</MyButton>
 							<MyButton path={'http://192.168.91.50/'}>ЭЛ. ОЧЕРЕДЬ</MyButton>
-							<MyButton>POS</MyButton>
+							<MyButton path={'https://pos.gosuslugi.ru/backoffice/login'}>POS</MyButton>
 							<MyButton svg={<img src="/src/assets/welcome.png" />} path={'https://webim.armgs.team'}>АРМ ГС - ПОЧТА</MyButton>
-							<MyButton >РОСРЕЕСТР</MyButton>
+							<MyButton path={'https://rosreestr.gov.ru/'}>РОСРЕЕСТР</MyButton>
 							<MyButton path={'https://esia.gosuslugi.ru/login/'}>ЕСИА</MyButton>
-							<MyButton>Сбербанк</MyButton>
-							<MyButton svg={<svg width="211" height="214" viewBox="0 0 211 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<MyButton path={'http://192.168.91.215:9000/'}>Сбербанк</MyButton>
+							<MyButton path={'http://192.168.222.100/lk/auth/login'} svg={<svg width="211" height="214" viewBox="0 0 211 214" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<g clipPath="url(#clip0)">
 									<path d="M150.8 0.800049C183.937 0.800049 210.8 27.663 210.8 60.8001C210.8 91.8001 210.8 122.8 210.8 153.8C210.8 186.937 183.937 213.8 150.8 213.8C120.8 213.8 90.8 213.8 60.8 213.8C27.663 213.8 0.800049 186.937 0.800049 153.8C0.800049 122.819 0.800049 91.8191 0.800049 60.8001C0.800049 27.663 27.6631 0.800049 60.8002 0.800049C90.8449 0.800049 120.829 0.800049 150.8 0.800049ZM192.135 116.381C192.362 113.264 192.383 110.134 192.186 107.014C191.597 97.6698 191.23 89.0849 190.2 80.5C188.7 67 182.1 56.2 171.1 48.3C156.4 37.8 140.6 28.8001 124.2 21.2001C110.9 15.1001 97.4 14.9 84.5 21.8C69.1 30.2 54.0001 38.9001 39.2001 48.2001C27.4001 55.7001 21.1 67.2 19.4 81.1C17.3 98.4 17.6 115.7 18.8 133.1C19.9 149.6 27.1 162.6 40.8 172C55.2 181.9 70.2 190.8 86.2 198C98.5 203.5 110.9 203.6 123.2 198.2C140.5 190.6 156.6 180.8 172 169.9C181.5 163.1 187.8 153.7 189.7 142.2C191.04 133.491 191.538 124.571 192.135 116.381Z" fill="#0A2896" />
 									<path d="M210.8 0.8C141 0.8 71.1 0.8 0.8 0.8C0.8 71.9 0.8 142.9 0.8 213.8C0.5 212.7 0.1 211.6 0.1 210.4C0 140.3 0 70.3 0 0C1.9 0 3.9 0 5.8 0C73 0 140.2 0 207.4 0C208.5 0 209.6 0.5 210.8 0.8Z" fill="#FEFEFE" />
@@ -178,8 +178,8 @@ z"/>
 									</clipPath>
 								</defs>
 							</svg>}>ГОСКЛЮЧ</MyButton>
-							<MyButton>СЕВРЕЕСТР</MyButton>
-							<MyButton>Старая почта</MyButton>
+							<MyButton path={'http://sevreestr.ru:92/site/login'}>СЕВРЕЕСТР</MyButton>
+							<MyButton path={'https://e.armgs.team/inbox'}>почта</MyButton>
 
 						</div>
 					</div>
