@@ -156,9 +156,8 @@ M144.967422,203.166809
 	C106.475365,223.032150 125.561485,213.178223 144.967422,203.166809 
 z"/>
 							</svg>}>GLPI - ЗАЯВКИ</MyButton>
-							<MyButton path={'http://192.168.91.50/'}>ЭЛ. ОЧЕРЕДЬ</MyButton>
-							<MyButton path={'https://pos.gosuslugi.ru/backoffice/login'}>POS</MyButton>
-							<MyButton svg={<img src="/src/assets/welcome.png" />} path={'https://webim.armgs.team'}>АРМ ГС - ПОЧТА</MyButton>
+							<MyButton path={'https://pos.gosuslugi.ru/backoffice/login'}>ПОС</MyButton>
+							<MyButton svg={<img src="/src/assets/welcome.png" />} path={'https://webim.armgs.team'}>Чат</MyButton>
 							<MyButton path={'https://rosreestr.gov.ru/'}>РОСРЕЕСТР</MyButton>
 							<MyButton path={'https://esia.gosuslugi.ru/login/'}>ЕСИА</MyButton>
 							<MyButton path={'http://192.168.91.215:9000/'}>Сбербанк</MyButton>
@@ -178,7 +177,7 @@ z"/>
 									</clipPath>
 								</defs>
 							</svg>}>ГОСКЛЮЧ</MyButton>
-							<MyButton path={'http://sevreestr.ru:92/site/login'}>СЕВРЕЕСТР</MyButton>
+							<MyButton path={'http://sevreestr.ru:92/site/login'}>Ведомости</MyButton>
 							<MyButton path={'https://e.armgs.team/inbox'}>почта</MyButton>
 
 						</div>
