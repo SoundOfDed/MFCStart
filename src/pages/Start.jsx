@@ -15,13 +15,13 @@ const Start = () => {
                     </div>
                     <div className="main">
                         <div className="start__roles">
-                            <MyButton path={"https://regal-cupcake-9c3ff4.netlify.app/home-operator/home-operator"}>
+                            <MyButton path={"/home-operator"}>
                                 Оператор
                             </MyButton>
-                            <MyButton path={"https://regal-cupcake-9c3ff4.netlify.app/home-operator/home-obr"}>
+                            <MyButton path={"/home-obr"}>
                                 Обработчик
                             </MyButton>
-                            <MyButton path={"https://regal-cupcake-9c3ff4.netlify.app/home-operator/home-admin"}>
+                            <MyButton path={"/home-admin"}>
                                 Администратор
                             </MyButton>
                         </div>
