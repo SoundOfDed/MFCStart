@@ -12,10 +12,10 @@ const HomeOperator = () => {
 					<Header />
 					<div className="main">
 						<div className="home__btns">
-							<MyButton path={'https://192.168.91.50/cpgu'}>АИС МФЦ</MyButton>
-							<MyButton path={'https://10.92.146.44/'}>ПК ПВД</MyButton>
-							<MyButton path={'https://glpi.mfc92.ru/'} svg={<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-								width="100%" viewBox="0 0 300 300" enableBackground="new 0 0 300 300"  space="preserve">
+							<MyButton path={'http://192.168.91.50/cpgu'}>АИС МФЦ</MyButton>
+							<MyButton path={'http://10.92.146.44/help'}>ПК ПВД</MyButton>
+							<MyButton path={'http://glpi.mfc92.ru/'} svg={<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+								width="100%" viewBox="0 0 300 300" enableBackground="new 0 0 300 300" space="preserve">
 								<path fill="#E94A38" opacity="1.000000" stroke="none"
 									d="
 M173.000000,301.000000 
@@ -156,11 +156,11 @@ M144.967422,203.166809
 	C106.475365,223.032150 125.561485,213.178223 144.967422,203.166809 
 z"/>
 							</svg>}>GLPI - ЗАЯВКИ</MyButton>
-							<MyButton>ЭЛ. ОЧЕРЕДЬ</MyButton>
+							<MyButton path={'http://192.168.91.50/'}>ЭЛ. ОЧЕРЕДЬ</MyButton>
 							<MyButton>POS</MyButton>
-							<MyButton svg={<img src="/src/assets/welcome.png" />}>АРМ ГС - ПОЧТА</MyButton>
+							<MyButton svg={<img src="/src/assets/welcome.png" />} path={'https://webim.armgs.team'}>АРМ ГС - ПОЧТА</MyButton>
 							<MyButton>РОСРЕЕСТР</MyButton>
-							<MyButton>ЕСИА</MyButton>
+							<MyButton path={'https://esia.gosuslugi.ru/login/'}>ЕСИА</MyButton>
 							<MyButton>Сбербанк</MyButton>
 							<MyButton svg={<svg width="211" height="214" viewBox="0 0 211 214" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<g clipPath="url(#clip0)">
