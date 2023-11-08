@@ -159,7 +159,7 @@ z"/>
 							<MyButton path={'http://192.168.91.50/'}>ЭЛ. ОЧЕРЕДЬ</MyButton>
 							<MyButton>POS</MyButton>
 							<MyButton svg={<img src="/src/assets/welcome.png" />} path={'https://webim.armgs.team'}>АРМ ГС - ПОЧТА</MyButton>
-							<MyButton>РОСРЕЕСТР</MyButton>
+							<MyButton >РОСРЕЕСТР</MyButton>
 							<MyButton path={'https://esia.gosuslugi.ru/login/'}>ЕСИА</MyButton>
 							<MyButton>Сбербанк</MyButton>
 							<MyButton svg={<svg width="211" height="214" viewBox="0 0 211 214" fill="none" xmlns="http://www.w3.org/2000/svg">
