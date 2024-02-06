@@ -15,13 +15,13 @@ const Start = () => {
                     </div>
                     <div className="main">
                         <div className="start__roles">
-                            <MyButton path={"/home-operator"}>
+                            <MyButton path={"/home-operator"} target={'_self'}>
                                 Оператор
                             </MyButton>
-                            <MyButton path={"/home-obr"}>
+                            <MyButton path={"/home-obr"} target={'_self'}>
                                 Обработчик
                             </MyButton>
-                            <MyButton path={"/home-admin"}>
+                            <MyButton path={"/home-admin"} target={'_self'}>
                                 Администратор
                             </MyButton>
                         </div>

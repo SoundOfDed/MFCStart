@@ -1,15 +1,15 @@
-
-.header__wrapper{
+.header__wrapper {
     margin-top: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.img__block{
+.img__block {
     display: inline-block;
+    margin-bottom: 2.5vw;
 }
 
-.img{
+.img {
     width: 360px;
 }

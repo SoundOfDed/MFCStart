@@ -15,7 +15,7 @@ const Footer = () => {
                             <li>Отдел сис. админ. АРМ: 417-099</li>
                         </ul>
                     </div>
-                    <MyButton path={"/instructions"}>Инструкции</MyButton>
+                    <MyButton path={"/instructions"} target={'_self'}>Инструкции</MyButton>
                 </div>
             </div>
         </div>

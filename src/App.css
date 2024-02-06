@@ -101,13 +101,13 @@ body {
   margin: 0 auto;
 }
 
-.wrapper{
+.wrapper {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.mainTextOp{
+.mainTextOp {
   padding-left: 90px;
 }
 
@@ -140,13 +140,13 @@ body {
   margin-top: 35px;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.button{
+.button {
   position: relative;
   z-index: 999;
 }
